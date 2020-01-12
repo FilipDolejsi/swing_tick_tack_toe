@@ -1,5 +1,8 @@
 package filiposmexicos.model;
 
+import java.beans.PropertyChangeListener;
+import java.beans.PropertyChangeSupport;
+
 /**
  * State of the application -- Keeps track of the data
  */
@@ -10,12 +13,18 @@ public class Model {
     private final Player playerO;
     private Player activePlayer;
     private int movesSoFar = 0;
+    private final PropertyChangeSupport propertyChangeSupport;
+    public static final String ACTIVE_PLAYER_CHANGED = "ACTIVE_PLAYER_CHANGED";
+    public static final String GRID_CELL_UPDATED = "GRID_CELL_UPDATED";
+    public static final String GAME_ENDED_WITH_WIN = "GAME_ENDED_WITH_WIN";
+    public static final String GAME_ENDED_WITH_DRAW = "GAME_ENDED_WITH_DRAW";
 
     public Model() {
         this.playerX = new Player("x");
         this.playerO = new Player("o");
         this.activePlayer = this.playerX;
         grid = new Player[SIZE][SIZE];
+        propertyChangeSupport = new PropertyChangeSupport(this);
     }
 
     public Player getActivePlayer() {
@@ -26,18 +35,33 @@ public class Model {
      * switch players
      */
     public void switchActivePlayer() {
+        Player origActivePlayer = activePlayer;
+
         if (activePlayer.equals(playerX)) {
             activePlayer = playerO;
         } else {
             activePlayer = playerX;
         }
+
+        propertyChangeSupport.firePropertyChange(ACTIVE_PLAYER_CHANGED, origActivePlayer, activePlayer);
     }
 
     public void playerMove(Player player, int x, int y) {
         if (grid[x][y] == null) {
             this.movesSoFar++;
         }
+        final GridCellState origGridCellState = new GridCellState(x, y, grid[x][y]);
         grid[x][y] = player;
+        final GridCellState newGridCellState = new GridCellState(x, y, grid[x][y]);
+        propertyChangeSupport.firePropertyChange(GRID_CELL_UPDATED, origGridCellState, newGridCellState);
+
+        if (player != null && isWinner(player)) {
+            propertyChangeSupport.firePropertyChange(GAME_ENDED_WITH_WIN, 0, 1);
+        }
+
+        if (isDraw()) {
+            propertyChangeSupport.firePropertyChange(GAME_ENDED_WITH_DRAW, 0, 1);
+        }
     }
 
     public void playerMove(int x, int y) {
@@ -103,7 +127,7 @@ public class Model {
             int diagonalSum = 0;
             for (int i = 0; i < SIZE; i++) {
                 //if all of them are the same, return true otherwise break the loop.
-                if (player.equals(grid[i][SIZE-1-i])) {
+                if (player.equals(grid[i][SIZE - 1 - i])) {
                     diagonalSum++;
                 } else {
                     break;
@@ -127,16 +151,44 @@ public class Model {
     }
 
     public boolean isDraw() {
-        return this.movesSoFar == SIZE*SIZE && !this.isWinner(playerX) && !this.isWinner(playerO);
+        return this.movesSoFar == SIZE * SIZE && !this.isWinner(playerX) && !this.isWinner(playerO);
     }
 
     public void resetBoard() {
         for (int x = 0; x < SIZE; x++) {
             for (int y = 0; y < SIZE; y++) {
-                grid[x][y]=null;
+                playerMove(null, x, y);
             }
         }
         movesSoFar = 0;
+    }
+
+    public void addPropertyChangeListener(String propertyName, PropertyChangeListener listener) {
+        this.propertyChangeSupport.addPropertyChangeListener(propertyName, listener);
+    }
+
+    public static final class GridCellState {
+        private final int x;
+        private final int y;
+        private final Player player;
+
+        GridCellState(int x, int y, Player player) {
+            this.x = x;
+            this.y = y;
+            this.player = player;
+        }
+
+        public int getX() {
+            return x;
+        }
+
+        public int getY() {
+            return y;
+        }
+
+        public Player getPlayer() {
+            return player;
+        }
     }
 }
 

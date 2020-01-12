@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9f985523-0812-4c79-98cc-9af93fade44c" name="Default Changelist" comment="" />
+    <list default="true" id="9f985523-0812-4c79-98cc-9af93fade44c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/filiposmexicos/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/filiposmexicos/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/filiposmexicos/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/filiposmexicos/View.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/filiposmexicos/model/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/filiposmexicos/model/Model.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +22,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1WCgvanLC6RvklF3PR0MXH5jHKO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -27,11 +38,12 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH" value="140" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -184,10 +196,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1578762925316" />
-    <state x="446" y="50" key="#com.intellij.ide.util.MemberChooser" timestamp="1578767286781">
+    <state x="446" y="50" key="#com.intellij.ide.util.MemberChooser" timestamp="1578769515387">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="446" y="50" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1578767286781" />
+    <state x="446" y="50" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1578769515387" />
     <state x="371" y="130" key="#com.intellij.ide.util.TreeFileChooserDialog" timestamp="1578733614588">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -204,54 +216,62 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="443" y="230" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1280.680@0.0.1280.680" timestamp="1578743478668" />
-    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1578736662433">
+    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1578823969724">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.680@0.0.1280.680" timestamp="1578736662433" />
-    <state width="393" height="438" key="DebuggerActiveHint" timestamp="1578764220890">
+    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.680@0.0.1280.680" timestamp="1578823969724" />
+    <state x="396" y="51" key="#xdebugger.evaluate" timestamp="1578824799247">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="393" height="438" key="DebuggerActiveHint/0.0.1280.680@0.0.1280.680" timestamp="1578764220890" />
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1578767164211">
+    <state x="396" y="51" key="#xdebugger.evaluate/0.0.1280.680@0.0.1280.680" timestamp="1578824799247" />
+    <state x="309" y="0" key="CommitChangelistDialog2" timestamp="1578825357846">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1578767164211" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1578767164211">
+    <state x="309" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1578825357846" />
+    <state width="460" height="438" key="DebuggerActiveHint" timestamp="1578824760748">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1578767164211" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1578767164211">
+    <state width="460" height="438" key="DebuggerActiveHint/0.0.1280.680@0.0.1280.680" timestamp="1578824760748" />
+    <state width="1237" height="204" key="GridCell.Tab.0.bottom" timestamp="1578826809147">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1578767164211" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1578767164211">
+    <state width="1237" height="204" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1578826809147" />
+    <state width="1237" height="204" key="GridCell.Tab.0.center" timestamp="1578826809147">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1578767164211" />
-    <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1578764724532">
+    <state width="1237" height="204" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1578826809147" />
+    <state width="1237" height="204" key="GridCell.Tab.0.left" timestamp="1578826809147">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1578764724532" />
-    <state width="1237" height="204" key="GridCell.Tab.1.center" timestamp="1578764724532">
+    <state width="1237" height="204" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1578826809147" />
+    <state width="1237" height="204" key="GridCell.Tab.0.right" timestamp="1578826809147">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1578764724532" />
-    <state width="1237" height="204" key="GridCell.Tab.1.left" timestamp="1578764724532">
+    <state width="1237" height="204" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1578826809147" />
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1578826809148">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1578764724532" />
-    <state width="1237" height="204" key="GridCell.Tab.1.right" timestamp="1578764724532">
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1578826809148" />
+    <state width="1237" height="204" key="GridCell.Tab.1.center" timestamp="1578826809148">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1578764724532" />
-    <state x="142" y="0" key="SettingsEditor" timestamp="1578767391357">
+    <state width="1237" height="204" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1578826809148" />
+    <state width="1237" height="204" key="GridCell.Tab.1.left" timestamp="1578826809148">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1578767391357" />
-    <state x="349" y="170" key="com.intellij.ide.util.TipDialog" timestamp="1578749700768">
+    <state width="1237" height="204" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1578826809148" />
+    <state width="1237" height="204" key="GridCell.Tab.1.right" timestamp="1578826809148">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="349" y="170" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1578749700768" />
+    <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1578826809148" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1578823669510">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1578823669510" />
+    <state x="349" y="170" key="com.intellij.ide.util.TipDialog" timestamp="1578823637613">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="349" y="170" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1578823637613" />
     <state x="376" y="241" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1578743388648">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -268,27 +288,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="281" y="67" width="700" height="530" key="recent.locations.popup/0.0.1280.680@0.0.1280.680" timestamp="1578737992154" />
-    <state x="297" y="151" width="672" height="677" key="run.anything.popup" timestamp="1578743765215">
+    <state x="297" y="151" width="672" height="677" key="run.anything.popup" timestamp="1578821892255">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="297" y="151" width="672" height="677" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1578743765215" />
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1578765009221">
+    <state x="297" y="151" width="672" height="677" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1578821892255" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1578822663737">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1578765009221" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1578822663737" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/filiposmexicos/Controller.java</url>
-          <line>24</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/filiposmexicos/Controller.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="8" />
+          <url>file://$PROJECT_DIR$/src/filiposmexicos/model/Model.java</url>
+          <line>159</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
